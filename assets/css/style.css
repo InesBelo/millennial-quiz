@@ -12,3 +12,12 @@
     width: 100%;
 }
 
+#featured-image {
+    display: flex;
+    justify-content: center;
+}
+
+#featured-image img {
+    width: 50%;
+    max-width: 50%;
+}
