@@ -2,7 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: aqua;
+}
+
+body {
+    background-color: #f1f1f1;
 }
 
 #audio-container {
@@ -21,3 +24,57 @@
     width: 50%;
     max-width: 50%;
 }
+
+#quiz-presentation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+    padding: 48px 0;
+}
+
+
+/* Start of Footer Section */
+
+.footer-container {
+    height: 125px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ff2273;
+}
+
+/* Social Media */
+.social-media li {
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    padding: 0.9vh;
+}
+
+.networks i {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.networks i:hover {
+    color: #00bfc3;
+}
+
+/* Copyrights  - parágrafo continua com linha em baixo. verificar*/
+.copyrights  {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+.copyrights a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copyrights a:hover {
+    border-bottom: 1px solid #ffff;
+}
+/* End of Footer Section */
